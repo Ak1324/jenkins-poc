@@ -7,7 +7,7 @@ echo $env
 
 if [ "$env" == "QA" ]; then
     echo "performing $env $tag"
-else:
+else
     echo "Select the correct env"
 fi
 
