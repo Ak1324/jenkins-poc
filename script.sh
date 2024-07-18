@@ -3,4 +3,4 @@
 env=$1
 tag=$2
 
-echo "performing env tag"
+echo "performing $env $tag"
