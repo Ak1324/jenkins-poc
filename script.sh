@@ -3,7 +3,7 @@
 env=$1
 tag=$2
 
-if [ env -eq "QA" ]; then
+if [ $env -eq "QA" ]; then
     echo "performing $env $tag"
     exit 1
 else:
